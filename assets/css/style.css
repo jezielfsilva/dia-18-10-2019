@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main-container {
+    height: 90vh;
+    background-color: #556B2F;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.box-dace {
+    width: 30vw;
+    height: 20vh;
+    background-color: aliceblue;
+    border-radius: 0.8em;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.user, .pass {
+    width: 20vw;
+    height: 5vh;
+    border-radius: 0.6em;
+    border: 0.09em solid #000000;
+    font-size: 1em;
+}
+
+.click {
+    width: 8vw;
+    height: 4vh;
+    border-radius: 0.5em;
+}

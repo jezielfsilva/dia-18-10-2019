@@ -16,7 +16,7 @@ if (userMail.value === testMail) {
 }
 
 if (userPass.value === testPass) {
-    document.querySelector('h2').innerHTML = 'Senha certo!!'
+    document.querySelector('h2').innerHTML = 'Senha certa!!'
 } else {
     document.querySelector('h2').innerHTML = 'Senha incorreta!!'
 }
